@@ -26,10 +26,18 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
+<<<<<<< HEAD
     baseURL: 'https://pt.wikipedia.org',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
+=======
+    // baseURL: 'https://opensource-demo.orangehrmlive.com',
+
+    /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
+    trace: 'on-first-retry',
+    testIdAttribute: 'data-testid'
+>>>>>>> refs/rewritten/onto
   },
 
   /* Configure projects for major browsers */
@@ -39,6 +47,7 @@ export default defineConfig({
       use: { ...devices['Desktop Chrome'] },
     },
 
+<<<<<<< HEAD
     {
       name: 'firefox',
       use: { ...devices['Desktop Firefox'] },
@@ -48,6 +57,17 @@ export default defineConfig({
       name: 'webkit',
       use: { ...devices['Desktop Safari'] },
     },
+=======
+    // {
+    //   name: 'firefox',
+    //   use: { ...devices['Desktop Firefox'] },
+    // },
+
+    // {
+    //   name: 'webkit',
+    //   use: { ...devices['Desktop Safari'] },
+    // },
+>>>>>>> refs/rewritten/onto
 
     /* Test against mobile viewports. */
     // {
@@ -76,4 +96,8 @@ export default defineConfig({
   //   url: 'http://localhost:3000',
   //   reuseExistingServer: !process.env.CI,
   // },
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> refs/rewritten/onto

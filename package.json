@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "playwright",
+=======
+  "name": "ihiiiii",
+>>>>>>> refs/rewritten/onto
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +14,10 @@
   "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.64.1",
+<<<<<<< HEAD
     "@types/node": "^26.6.5"
+=======
+    "@types/node": "^26.6.6"
+>>>>>>> refs/rewritten/onto
   }
 }
