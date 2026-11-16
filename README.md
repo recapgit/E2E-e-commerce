@@ -1,6 +1,6 @@
 # Teste E2E - Compra no QA Practice
 
-Teste automatizado com Playwright e TypeScript que simula uma compra completa no e-commerce de prática do [QA Practice](https://www.qapractice.com/practice-ecommerece-website): busca do produto, carrinho, endereço de envio, pagamento e confirmação da compra (4 unidades de Coca Cola).
+Teste automatizado com Playwright e TypeScript que simula uma compra completa no e-commerce de prática do site [QA Practice](https://www.qapractice.com/practice-ecommerece-website): busca do produto, carrinho, endereço de envio, pagamento e confirmação da compra (4 unidades de Coca Cola).
 
 O projeto usa o padrão Page Object Model, com cada página do fluxo em uma classe separada.
 
